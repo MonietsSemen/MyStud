@@ -1,0 +1,209 @@
+body{
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    color:  #fff;
+    background:     #242b32;
+
+}
+*,
+*:before,
+*:after,
+{
+    box-sizing: border-box;
+
+}
+h1,h2,h3,h4,h5,h6{
+    margin: 0;
+}
+/*Intro*/
+.intro{
+    wight:         100%;
+    height:         100vh;
+    background: linear-gradient(180deg, #242B33 11.98%, rgba(45, 52, 60, 0.38) 51.04%, #242B33 92.19%), url(../img/intro.png)
+    top center no-repeat;
+    -webkit-box-background-size: cover;
+    background-size: cover;
+
+}
+/*Container*/
+.container, .container_for_block{
+    width:          60%;
+    max-wight:      1200px;
+    margin:         0 auto;
+    position:       relative;
+    padding:        0;
+    background:     red;
+
+}
+.header{
+    width:          100%;
+    top:            30px;
+
+}
+.header  {
+    display:        flex;
+    justify-content: space-between;
+
+}
+.big_logo{
+    font-size:  36px;
+    font-weight:    600;
+    line-height:    54px;
+}
+.little_logo {
+    font-family:    "Raleway";
+    font-size:      12px;
+    line-height:    14px;
+    letter-spacing: 0.12em;
+    font-style:     normal;
+    font-weight:    normal;
+    color:          rgba(255, 255, 255, 0.6);
+
+}
+.navigation {
+    list-style:     none;
+    font-size:      14px;
+    letter-spacing: 0.05em;
+
+
+}
+.navigation li{
+    display:        inline;
+    margin:         20px;
+}
+.nav_link {
+    color:          rgba(255, 255, 255, 0.6);
+    text-decoration:    none;
+    transition:     color 0.2s linear;
+
+}
+.nav_link:hover {
+    color:          #D4C17F;
+
+}
+.center_text {
+    font-family: Playfair Display;
+    font-size:      48px;
+    text-align:     center;
+    color:          #D4C17F;
+    padding:        20% 10% 10%;
+    margin:         0 auto;
+}
+.mouse {
+    margin:         0;
+    padding:        10% 48% 0 48%;
+
+}
+.phone {
+    padding-left:   10%;
+    padding-top:    12%;
+}
+
+.phone ul li {
+    color:          rgba(255, 255, 255, 0.6);
+    text-decoration:    none;
+    display:        inline;
+    margin:         50px;
+    padding-left:   4%;
+    font-size:      18px;
+
+}
+.address {
+        background: url(../img/map.png) no-repeat 0px -1px ;
+}
+.number {
+
+        background: url(../img/phone.png) no-repeat 0px -1px;
+}
+.picture {
+    wight:          41%;
+    padding-left:   10%;
+    position:       relative;
+
+}
+.bench, .building, .fountain, .bicycle {
+    width:          135px;
+    height:         80px;
+    padding:        15% 35px 0;
+    margin-left:    0 35px;
+    position:       relative;
+    display:        inline-block;
+
+}
+.bench img, .building img, .fountain img, .bicycle img   {
+    position:       relative;
+    margin:         0 20%;
+}
+.bench p, .building p, .fountain p, .bicycle p   {
+    text-align:     center;
+    color:          rgba(255, 255, 255, 0.6);
+}
+.bench {
+    width:          150px;
+    padding-left:   0;
+}
+.bicycle {
+    padding-right:  0;
+}
+.apartments{
+    font-family:    Playfair Display;
+    font-size:      24px;
+    font-style:     normal;
+    line-height:    48px;
+    color:          #D4C17F;
+    margin:         120px 0 100px;
+
+}
+.apartment_photo_l {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(../img/apartment1.png), #D4C17F;
+    margin-left:    0;
+}
+.apartment_photo_r {
+    background: linear-gradient(180deg, rgba(36, 43, 51, 0) 0%, #242B33 100%), url(../img/apartment2.png), #D4C17F;
+    margin-right:   0;
+}
+.apartment_photo_l, .apartment_photo_r {
+    width:          535px;
+    height:         320px;
+    background-position:    center;
+    margin:         15px;
+    position:       relative;
+    display:        inline-block;
+    font-family:    "Raleway";
+    font-size:      24px;
+
+}
+.apartment_photo_l p, .apartment_photo_r p {
+    margin:         248px 0 50px 50px;
+    font-style:     normal;
+    color:          rgba(255, 255, 255, 0.8);
+}
+.block_3 {
+    background:     url(../img/block.png);
+    width:          100%;
+    height:         560px;
+    margin:         0 auto;
+    padding:        0;
+    box-sizing: border-box;
+}
+.block_3 h2 {
+    margin:         0;
+    display:        inline-block;
+    padding:        180px 0 50px;
+    font-family:    Playfair Display;
+    font-size:      24px;
+    font-style:     normal;
+    color:          #D4C17F;
+
+}
+.block_3 p {
+    width:          535px;
+    height:         114px;
+    padding:         50px 0;
+
+}
+
+
+
+
